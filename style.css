@@ -1,0 +1,91 @@
+.card-img{
+    width: 45rem;
+    
+}
+.ov1{
+top: 80%;
+left: 20%;
+}
+.ov2{
+    bottom: 95%;
+left: 30%;
+}
+.ov3{
+    top: 0%;
+    left: 72%; 
+}
+.ov4{
+left: 93%;
+bottom: 86%;
+
+}
+.ov5{
+    top: 6%;
+left: 55%;
+z-index: -1;
+}
+.ov6{
+    top: 13%;
+left: 10%;
+}
+.bg1{
+    background-image: url(IMAGES/Vid\ Gray\ BG.png);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding: relative;
+    z-index: 1;
+   
+}
+.overlyimg1{
+    background-image: url(IMAGES/VIDEO.png);
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    z-index: 100000 !important;
+
+
+}
+
+.bg2{
+    background-image: url(IMAGES/Slanted\ Green\ BG.png);
+     position: relative;
+   background-position: top;
+   margin-top: -230px;
+   
+    z-index: -1 ;
+    width: 100%;
+    height: 1000px;
+   
+}
+@media (max-width:1028px) {
+    .overlyimg1{
+        background-position: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+}
+@media (max-width:765px) {
+    .overlyimg1{
+        background-position: center;
+        width: 100%;
+        margin: 0;
+        height: 40vh;
+    }
+    
+}
+
+.column1{
+margin-top: 150px;
+}
+.column3{
+    margin-top: 100px !important;
+}
+@media (max-width:750px) {
+
+   .sec4{
+    margin-top: 500px;
+   }
+    
+}
